@@ -1,0 +1,43 @@
+.header__item {
+    color: brown;
+}
+
+.tags a {
+    color: chartreuse;
+}
+
+h1 {
+    color: red;
+}
+
+.main__text {
+    color: blue;
+}
+
+.main__text strong {
+    color: red;
+}
+
+.main__title    {
+    color: green;
+}
+
+.text-spec {
+    color: chocolate;
+}
+
+.super-span {
+    color: blueviolet;
+}
+
+.main__block ul li span {
+    color: lawngreen;
+}
+
+.main__block ul li {
+    color: deeppink;
+}
+
+
+
+
