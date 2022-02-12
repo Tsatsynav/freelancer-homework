@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.header__item {
+    color: brown;
+}
+
+.tags a {
+    color: chartreuse;
+}
+
+.index-title {
+    color: red;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px red;
+}
+
+h1 a {
+    color: red;
+}
+
+.main__text {
+    color: blue;
+}
+
+.main__text strong {
+    color: red;
+}
+
+.main__title    {
+    color: green;
+}
+
+.text-spec {
+    color: chocolate;
+}
+
+.super-span {
+    color: blueviolet;
+}
+
+.main__block ul li span {
+    color: lawngreen;
+}
+
+.main__block ul li {
+    color: deeppink;
+}
+
+/*FIGMA.html*/
+.figma-title {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.figma-bold {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.figma-regular {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+
+
+
