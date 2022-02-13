@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: "Muller";
+    src: local("MullerLight"),
+    url("../fonts/MullerLight.woff2") format("woff2"), url("../fonts/MullerLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: local("MullerRegular"),
+    url("../fonts/MullerRegular.woff2") format("woff2"), url("../fonts/MullerRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: local("MullerRegularItalic"),
+    url("../fonts/MullerRegularItalic.woff2") format("woff2"), url("../fonts/MullerRegularItalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: local("MullerMedium"),
+    url("../fonts/MullerMedium.woff2") format("woff2"), url("../fonts/MullerMedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: local("MullerBold"),
+    url("../fonts/MullerBold.woff2") format("woff2"), url("../fonts/MullerBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*====-BODY and other MAIN-====*/
+
+body {
+    font-family: "Muller", "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.main-title {
+    color: red;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 4px 4px 5px red;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.second-title {
+    color: green;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.text-link {
+    color: #f03e3e;
+}
+
+/*====-CONTAINER spec-====*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-header {
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(207,134,209,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*====-HEADER-====*/
+
+.header__logo img {
+    width: 150px;
+}
+
+.header__menu {
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: brown;
+    text-align: right;
+}
+
+.header__item {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.header {
+    padding-top: 15px;
+    margin-bottom: 75px;
+}
+
+/*====-ABOUT-====*/
+
+.about {
+    margin-bottom: 75px;
+}
+
+.about-sec1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.about-sec2 {
+    text-align: right;
+}
+
+.about-sec3 {
+    text-align: justify;
+    font-style: italic;
+    text-indent: 35px;
+}
+
+.upper-span {
+    color: forestgreen;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cap-span {
+    color: brown;
+    text-transform: capitalize;
+    text-shadow: brown 3px 3px 5px;
+}
+
+.under-span {
+    color: deeppink;
+    text-shadow: deeppink 3px 3px 5px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.text-pt {
+    padding-top: 35px;
+}
+
+/*====-SKILLS-====*/
+
+.skills {
+    margin-bottom: 75px;
+}
+
+.skills__list {
+    margin-bottom: 25px;
+    color: chocolate;
+}
+
+.skills__text {
+    color: crimson;
+    font-weight: 700;
+}
+
+.skills__img {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.inside-list {
+    padding-left: 15px;
+    color: blue;
+}
+
+.inside-item {
+    text-transform: lowercase;
+    word-spacing: 7px;
+    color: darkmagenta;
+}
+
+.inside-item-spec {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: indigo;
+}
+
+ /*====-MARGINS-====*/
+
+.margins {
+    margin-bottom: 75px;
+}
+
+.margins-spec {
+    border-top: #424551 1px solid;
+    padding-top: 25px;
+}
+
+.paddings__ex {
+    margin-bottom: 35px;
+}
+
+.padding__block {
+    max-width: 250px;
+    background-color: #7a956b;
+    margin-right: 15px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.padding-all {
+    padding: 25px;
+}
+
+.padding-tb {
+    padding: 25px 0;
+}
+
+.padding-lr {
+    padding: 0 25px;
+}
+
+.scroll {
+    height: 250px;
+    overflow: scroll;
+}
+
+.hidden {
+    height: 250px;
+    overflow: hidden;
+}
+
+.overflow {
+    margin-bottom: 35px;
+}
+
+.no-overflow {
+    height: 250px;
+    overflow: visible;
+}
+
+ /*====-FOOTER-====*/
+
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer__text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding:75px 0;
+    margin: 0 auto;
+}
+
+ /*====-FIGMA.html-====*/
+
+.figma-container {
+    max-width: 850px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.figma-title {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 92px;
+}
+
+.figma-img {
+    margin-bottom: 60px;
+}
+
+.figma-bold {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.figma-bold-spec {
+    padding-left: 58px;
+}
+
+.figma-regular {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 24px;
+}
+
+.figma-text-spec {
+    margin-bottom: 48px;
+}
+
+.figma-item {
+    padding-left: 16px;
+}
+
+
+
+
