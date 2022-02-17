@@ -454,9 +454,10 @@ body {
     margin: 0 auto 75px;
 }
 
-.fitness-title {
+.figma2-title {
     text-align: center;
     font-family: "CircularStd";
+    font-weight: 500;
     font-size: 65px;
     line-height: 126%;
     margin-bottom: 20px;
@@ -474,6 +475,7 @@ body {
 
 .figma2-comment-block {
     max-width: 508px;
+    margin-bottom: 100px;
 }
 
 .figma2-comment-title {
@@ -513,7 +515,6 @@ body {
     font-size: 18px;
     line-height: 130%;
     color: #B8B8B8;
-    margin-bottom: 100px;
 }
 
 
