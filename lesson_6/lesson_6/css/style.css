@@ -473,7 +473,7 @@ body {
 }
 
 .figma2-comment-block {
-    width: 508px;
+    max-width: 508px;
 }
 
 .figma2-comment-title {
