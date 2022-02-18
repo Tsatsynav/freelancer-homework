@@ -474,12 +474,12 @@ body {
 }
 
 .figma-date {
-    background: url("../img/calendar.svg") left center / auto no-repeat;
+    background: url("../img/cal.svg") left center / auto no-repeat;
     margin-right: 24px;
 }
 
 .figma-time {
-    background: url("../img/clock.svg") left center / auto no-repeat;
+    background: url("../img/cl.svg") left center / auto no-repeat;
 }
 
 .figma-img {
