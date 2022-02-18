@@ -460,7 +460,26 @@ body {
     font-size: 46px;
     line-height: 130%;
     color: #1E212C;
-    margin-bottom: 92px;
+    margin-bottom: 26px;
+}
+
+.figma-post {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+    margin-bottom: 40px;
+    padding-left: 34px;
+}
+
+.figma-date {
+    background: url("../img/calendar.svg") left center / auto no-repeat;
+    margin-right: 24px;
+}
+
+.figma-time {
+    background: url("../img/clock.svg") left center / auto no-repeat;
 }
 
 .figma-img {
@@ -478,6 +497,7 @@ body {
 
 .figma-bold-spec {
     padding-left: 58px;
+    background: url("../img/braces.svg") 0 0 / auto no-repeat;
 }
 
 .figma-regular {
@@ -494,7 +514,55 @@ body {
 }
 
 .figma-item {
-    padding-left: 16px;
+    padding-left: 32px;
+    background: url("../img/check.svg");
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+}
+
+.figma-createx {
+    max-width: 390px;
+}
+
+.figma-prequestion {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.figma-question {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.item-spec {
+    margin-bottom: 12px;
+}
+
+.figma-list {
+    margin-bottom: 48px;
+}
+
+.createx-btn {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    display: inline-block;
 }
 
 /*====-FIGMA2.html-====*/
