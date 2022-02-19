@@ -138,6 +138,10 @@ body {
 
 /*====-HEADER-====*/
 
+.header__logo {
+    display: inline-block;
+}
+
 .header__logo img {
     width: 150px;
 }
