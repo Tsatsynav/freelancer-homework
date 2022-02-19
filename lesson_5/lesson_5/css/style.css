@@ -74,6 +74,10 @@ body {
     margin-bottom: 15px;
 }
 
+.mb-none {
+    margin-bottom: 0;
+}
+
 .text-link {
     color: #f03e3e;
 }
